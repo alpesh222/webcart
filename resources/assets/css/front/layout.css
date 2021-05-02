@@ -1,0 +1,122 @@
+#site-logo-footer {
+    max-width: 180px;
+    max-height: auto;
+}
+.social-icons {
+    color: #fff;
+}
+.social-icons:hover {
+    color: red;
+}
+.wrapper {
+    margin: 0 15px;
+}
+.wrapper2 {
+    margin: 0 30px;
+}
+@media(max-width: 768px) {
+    #main-nav-navbar-collapse-1 {
+        background-color: #000;
+        position: relative;
+        z-index: 3 !important;
+    }
+    .dropdown-cart > li {
+        background-color: #eee;
+    }
+    .dropdown-cart > li > a {
+        color: #000 !important;
+    }
+}
+ul.dropdown-cart{
+    min-width:250px;
+}
+ul.dropdown-cart li .item{
+    display:block;
+    padding:3px 10px;
+    margin: 3px 0;
+}
+ul.dropdown-cart li .item:hover{
+    background-color:#f3f3f3;
+}
+ul.dropdown-cart li .item:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul.dropdown-cart li .item-left{
+    float:left;
+}
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info{
+    float:left;
+}
+ul.dropdown-cart li .item-left span.item-info{
+    margin-left:10px;   
+}
+ul.dropdown-cart li .item-left span.item-info span{
+    display:block;
+}
+ul.dropdown-cart li .item-right{
+    float:right;
+}
+ul.dropdown-cart li .item-right button{
+    margin-top:14px;
+}
+.cart-image {
+    width: 60px;
+}
+.btn-square {
+    width: 22px;
+    height: 22px;
+}
+div#main-nav-navbar-collapse-1 {
+    position: relative;
+    z-index: 2;
+}
+a.navbar-brand {
+    position: relative;
+    z-index: 999999;
+}
+@media(max-width: 767px) {
+    a.navbar-brand {
+        position: absolute;
+        padding: 15px 0px 0px 10px;
+    }
+}
+.location_name {
+    font-size: 12px;
+    text-align: right;
+}
+.jumbotron {
+    margin-bottom: 0px;
+}
+.jumbotron p {
+    font-size: 16px;
+}
+.right-side-jumbotron {
+    padding: 20px 10px;
+}
+.right-side-top-jumbotron:first-of-type, .main-side-jumbotron:first-of-type, .col-md-6 .right-side-bottom-jumbotron:first-of-type {
+    margin-top: 60px;
+}
+.right-side-top-jumbotron:last-of-type {
+    margin-bottom: -20px;
+}
+.jumbotron-above-deal-slider, .jumbotron-below-deal-slider {
+    margin-bottom: 40px;
+}
+.jumbotron-above-deal-slider:last-of-type {
+    margin-bottom: -20px;
+}
+.jumbotron-below-deal-slider:last-of-type {
+    margin-bottom: 0px;
+}
+.jumbotron img {
+    max-width: 100%;
+    height: auto;
+    display:block;
+}

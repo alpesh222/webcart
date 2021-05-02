@@ -1,0 +1,44 @@
+
+.spec-type {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.spec-radio {
+    margin-right: 1.4rem;
+}
+.spec-radio input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+.spec-radio input[type="radio"] + .spec-radio-label:before {
+    content: '';
+    background: #f4f4f4;
+    border-radius: 100%;
+    border: 1px solid #b4b4b4;
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    position: relative;
+    top: .2rem;
+    margin-right: .75rem;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms ease;
+}
+.spec-radio input[type="radio"]:checked + .spec-radio-label:before {
+    background-color: var(--main-color);
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.spec-radio input[type="radio"]:focus + .spec-radio-label:before {
+    outline: none;
+    border-color: #3197EE;
+}
+.spec-radio input[type="radio"]:disabled + .spec-radio-label:before {
+    box-shadow: inset 0 0 0 4px #f4f4f4;
+    border-color: #b4b4b4;
+    background: #b4b4b4;
+}
+.spec-radio input[type="radio"] + .spec-radio-label:empty:before {
+    margin-right: 0;
+}

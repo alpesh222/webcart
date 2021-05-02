@@ -1,0 +1,49 @@
+#google_translate_element{
+    position: absolute;
+    right: 25px;
+    background: var(--bg-color);
+    width: 192px;
+    padding: 17px;
+    padding-top: 2px;
+    padding-bottom: 0;
+    max-height: 38px;
+}
+.goog-te-gadget span{
+    display: none;
+}
+
+.goog-te-gadget{
+    color: white!important;
+}
+.goog-te-gadget div select{
+    color: #666!important;
+}
+
+@media only screen and (max-width: 1440px) {
+    .top-nav-bar .right-top-nav-items{
+        padding-right: 6%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .top-nav-bar .right-top-nav-items{
+        padding-right: 19%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .top-nav-bar .right-top-nav-items{
+        padding-right: 29%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #google_translate_element{
+       display: contents;
+    }
+    .goog-te-gadget{
+        max-height: 38px;
+        padding-left: 24%;
+    }
+    .top-nav-bar .right-top-nav-items{
+        padding-bottom: 0px;
+        padding-left: 60px;
+    }
+}

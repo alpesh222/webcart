@@ -1,0 +1,30 @@
+.custom_manage_top_drop i{
+    padding-right: 5px;
+}
+.navbar-cls-top .navbar-brand{
+    padding-top: 20px;
+    border: 1px solid;
+}
+.navbar-default .navbar-brand:focus{
+    background-color: #fff;
+}
+
+nav.navbar.navbar-default.navbar-cls-top, div.custom_manage_footer, #wrapper, .navbar-cls-top .navbar-brand:hover,.navbar-cls-top .navbar-brand{
+    background-color: var(--manage-panel-main-color);
+}
+
+nav.navbar-side, .sidebar-collapse .nav>li>a{
+    background-color: var(--manage-panel-side-color);
+}
+
+.navbar-header a.navbar-brand{
+    color: var(--manage-panel-title-color);
+}
+
+.sidebar-collapse .nav>li>a, .navbar-default .navbar-nav>li>a{
+    color: var(--manage-panel-text-color);
+}
+
+.sidebar-collapse .nav>li>a.active-menu, .sidebar-collapse .nav>li>a:hover, .navbar-cls-top .navbar-brand:hover{
+    background-color: var(--manage-panel-hover-color);
+}

@@ -1,0 +1,1 @@
+	{!!config('livechat.tawk_widget_code')!!}

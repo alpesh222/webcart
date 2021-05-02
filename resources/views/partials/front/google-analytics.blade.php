@@ -1,0 +1,1 @@
+	{!!config('analytics.google_analytics_script')!!}

@@ -1,0 +1,48 @@
+/*   CUSTOM FRONT PANEL CSS  */
+.checkbox label:before, .checkbox input:checked + label.hidden:after, #myFooter .footer-copyright a#webcart-link {
+    border-color: var(--main-color);
+}
+
+#myFooter .footer-copyright a#webcart-link {
+    color: var(--main-color);
+}
+
+.leftSidebar .navbar-default {
+    background-color: var(--bg-color);
+}
+.btn-success, .btn-primary, .subscription-newsletter .btn, .swiper-container .swiper-button-next, .swiper-container .swiper-button-prev,
+.wrapper-sticky button#update_btn, .main-menu .badge, .swiper-slide span.text-success, ul.rig li span.text-success {
+    background-color: var(--btn-color);
+}
+
+.btn:hover, .swiper-container .swiper-button-next:hover, .swiper-container .swiper-button-prev:hover, button#update_btn:hover {
+    background-color: var(--btn-hover-color);
+}
+
+#myFooter li a:visited, #myFooter li a:link, #myFooter div.footer-diss div, a#webcart-link, #myFooter .footer-menu h5,
+.right-top-nav-items>a, small.custom_header_icon, small.custom_header_icon_1, div.custom_nav_auth a,
+ .top-nav-bar .contact-info a, .top-nav-bar .right-top-nav-items a {
+    color: var(--head-foot-text-color);
+}
+
+#myFooter li i.fa, #myFooter div.social-networks i.fa, .right-top-nav-items>a>i.fa,
+div.custom_nav_auth a>i.fa, .top-nav-bar .fa{
+    color: var(--head-foot-icons-color);
+}
+
+.main-menu a.cart-bucket i, #cssmenu-2 .nav li>a,  #cssmenu-2 .nav .dropdown-menu li a, #cssmenu-2 .nav li>a>i.fa, p.label-call,
+.top-nav-bar .right-top-nav-items .dropdown-menu a, .top-nav-bar .dropdown-menu .fa, .breadcrumb>li{
+    color: var(--header-text-color);
+}
+
+#myFooter .footer-menu ul>li>a:hover, .header-main-2 a:focus, .header-main-2 a:hover, #cssmenu-2 .nav .dropdown-menu li a:hover,
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, #myFooter .footer-copyright a#webcart-link:hover, #myFooter .footer-copyright a#webcart-link:focus,
+#myFooter a:hover,#myFooter a:focus, a:focus, a:hover,.login-container a:hover, .login-container a:focus, .leftSidebar .active-menu,
+.sidebar-collapse .nav>li>a:focus, .sidebar-collapse .nav>li>a:hover, .leftSidebar .sidebar-collapse .nav>li>a.active-menu, .top-nav-bar .right-top-nav-items .dropdown-menu a:hover,
+.top-nav-bar .right-top-nav-items .dropdown-menu a:hover .fa {
+    color: var(--links-hover-color);
+}
+
+div.btn-cart-drop a:hover{
+    color: white;
+}

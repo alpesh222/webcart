@@ -1,0 +1,116 @@
+.swiper-button-next {
+    right: 0%;
+    visibility: hidden;
+}
+.swiper-container .swiper-button-next {
+    right: 5%;
+    visibility: hidden;
+}
+.swiper-container .swiper-button-prev {
+    left: 5%;
+    visibility: hidden;
+}
+.swiper-button-next, .swiper-button-prev {
+    /*background-color: #70b444!important;*/
+}
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    border-radius: 100%;
+    height: auto;
+    z-index: 999;
+    cursor: pointer;
+    width: 50px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 34px;
+    color: #fff;
+    -moz-background-size: 27px 44px;
+    -webkit-background-size: 27px 44px;
+    background-position: center;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+}
+.swiper-button-next,  .swiper-button-prev {
+    background-image: none!important;
+}
+.swiper-container:hover .swiper-button-next {
+    right: 1%;
+    visibility: visible;
+}
+.swiper-container:hover .swiper-button-prev {
+    left: 1%;
+    visibility: visible;
+}
+ .swiper-btn-bottom-center .swiper-button-next {
+    right: 0%;
+    visibility: hidden;
+}
+ .swiper-button-prev::after {
+    content: "\f104";
+    font-family: FontAwesome;
+    line-height: 42px;
+    z-index: 999;
+    color: #fff;
+}
+.swiper-button-next::after {
+    content: "\f105";
+    font-family: FontAwesome;
+    line-height: 42px;
+    z-index: 999999;
+    color: #fff;
+}
+ .swiper-button-next,.swiper-button-prev {
+    background-color: #70b444!important;
+}
+.large-12.titel-columns {
+    display: block;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.btn-right{
+	text-align:right;
+}
+.btn-right a{
+	margin:15px 0px;
+}
+.btn-right a:hover{
+	margin:15px 0px;
+}
+.margin-60{
+margin:60px auto;
+}
+.banner-main-image{
+	width:100%;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0 !important;
+    cursor: auto;
+    pointer-events: none;
+}
+.swiper-container{
+    text-align:center;
+}
+.swiper-container .img-responsive{
+    max-height: 150px;
+    width: auto!important;
+}
+.img-banner{
+    width:100%!important;
+}
+.swiper-4-brand .img-responsive{
+    height: auto;
+}
+@media(max-width: 767px) {
+    .home-slider img {
+        min-height: 120px;
+    }
+}
+.titel-columns h2 {
+	font-size: 1.7em;
+}
+.swiper-container .caption h3 {
+	font-size: 1.32em;
+}
